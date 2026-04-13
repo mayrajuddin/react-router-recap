@@ -1,11 +1,14 @@
-:root{
-  text-align: center;
-  
-}
+
 a{text-decoration: none;}
 nav,.top{
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: space-between;
+}
+.footer{
+  text-align: center;
+  border: solid #ddd;
+  border-width: 2px 0;
+  text-transform: capitalize;
 }

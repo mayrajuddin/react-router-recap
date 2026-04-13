@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router';
+import {  NavLink } from 'react-router';
 
 const Header = () => {
     return (
         <div className='top'>
             <h2>BUKHARI ENT.</h2>
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/">About</Link>
-                <Link to="/">Contact</Link>
-                <Link to="/">Blogs</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/">Contact</NavLink>
+                <NavLink to="/">Blogs</NavLink>
             </nav>
         </div>
     );
