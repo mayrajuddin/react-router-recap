@@ -1,6 +1,7 @@
 import React from 'react';
 import FromAction from './FromAction';
 import UseRefForm from './UseRefForm';
+import FormHooks from './FormHooks';
 
 const Contact = () => {
     // const handleForm = (e)=>{
@@ -18,7 +19,8 @@ const Contact = () => {
                 <button type="submit">Submit</button> <br />
             </form>
             <FromAction/> */}
-            <UseRefForm/>
+            {/* <UseRefForm/> */}
+            <FormHooks/>
         </div>
         
     );
