@@ -10,20 +10,22 @@ const ProductForm = ({addProduct}) => {
 
         if(name.length === 0 ){
             setError('Give your name')
+            return
         }else if(price <1 ){
             setError('Price cannot be nagetive')
+            return
         }else if (quantity < 1){
             setError('Add Quantity')
+            return
         }else{
             setError('')
         }
         const product = {
             name, price, quantity
         }
-        if(!error){
+        
             addProduct(product);
-        }
-    }
+            }
     return (
         <div>
             <form onSubmit={handleForm}>
